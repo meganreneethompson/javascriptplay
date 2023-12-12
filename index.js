@@ -1,5 +1,9 @@
-let name = 'Mosh'; //String Literal
-let age = 30; //Number Literal
-let isApproved = true; //Boolean Literal
-let firstName = undefined;
-let lastName = null;
+let x = 10;
+let y = 3;
+
+console.log(x + y);
+console.log(x - y);
+console.log(x * y);
+console.log(x / y);
+console.log(x % y);
+console.log(x ** y);
