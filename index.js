@@ -1,10 +1,13 @@
-// Strict Equality (Same type + value). Most used. 
+// Logial and (&&)
+//Returns true on console if both operands are true. 
+// Ex: Applicant has high income and good credit score to get mortgage loan 
+//Logicl OR (||) returns true if one operand is true
 
-console.log (1 === 1);
-console.log ('1' === 1);
+let highIncome = true;
+let goodCreditScore = true;
+let eligibleFortLoan = highIncome && goodCreditScore;
 
-// Lose Equality. If it doesn't match it will convert left to match the right
+//Not (!)
+let applicationRefused = !eligibleFortLoan;
 
-console.log(1 == 1);
-console.log('1' == 1);
-console.log(true == 1);
+console.log(eligibleFortLoan);
