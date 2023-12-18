@@ -1,13 +1,7 @@
-// Logial and (&&)
-//Returns true on console if both operands are true. 
-// Ex: Applicant has high income and good credit score to get mortgage loan 
-//Logicl OR (||) returns true if one operand is true
+// 1 = 00000001
+// 2 = 00000010
+// 3 = 00000011
 
-let highIncome = true;
-let goodCreditScore = true;
-let eligibleFortLoan = highIncome && goodCreditScore;
+console.log (1 | 2); //Bitwise PR
 
-//Not (!)
-let applicationRefused = !eligibleFortLoan;
-
-console.log(eligibleFortLoan);
+console.log (1 & 2); //Bitwise AND
