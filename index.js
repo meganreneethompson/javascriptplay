@@ -1,7 +1,12 @@
-// 1 = 00000001
-// 2 = 00000010
-// 3 = 00000011
+// Variable swapping exercise 
 
-console.log (1 | 2); //Bitwise PR
+let a = 'Southern California';
+let b = 'Hawaii';
+let c = 'Maine';
 
-console.log (1 & 2); //Bitwise AND
+let d = a;
+a = b;
+
+console.log(a);
+console.log(b);
+console.log(c);
