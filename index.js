@@ -1,15 +1,7 @@
-// for 
-// while
-// do-while
-// for-in
+let number =max(3,3);
+console.log(number);
 
-const person = {
-    name: 'Mosh',
-    age: 30
-};
+function max(a, b) {
+    return (a > b) ? a : b;
+}
 
-for (let key in person)
-console.log(key, person[key]);
-
-const colors = ['red', 'green', 'blue'];
-console.log(colors);
