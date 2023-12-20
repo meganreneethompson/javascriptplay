@@ -1,15 +1,5 @@
-// for 
-// while
-// do-while
-// for-in
+console.log(isLandscape(200, 600));
 
-const person = {
-    name: 'Mosh',
-    age: 30
-};
-
-for (let key in person)
-console.log(key, person[key]);
-
-const colors = ['red', 'green', 'blue'];
-console.log(colors);
+function isLandscape(width, height){
+    return (width > height);
+}
