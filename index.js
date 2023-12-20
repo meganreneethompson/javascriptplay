@@ -1,12 +1,15 @@
-// Variable swapping exercise 
+// for 
+// while
+// do-while
+// for-in
 
-let a = 'Southern California';
-let b = 'Hawaii';
-let c = 'Maine';
+const person = {
+    name: 'Mosh',
+    age: 30
+};
 
-let d = a;
-a = b;
+for (let key in person)
+console.log(key, person[key]);
 
-console.log(a);
-console.log(b);
-console.log(c);
+const colors = ['red', 'green', 'blue'];
+console.log(colors);
