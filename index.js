@@ -1,7 +1,15 @@
-// 1 = 00000001
-// 2 = 00000010
-// 3 = 00000011
+// for 
+// while
+// do-while
+// for-in
 
-console.log (1 | 2); //Bitwise PR
+const person = {
+    name: 'Mosh',
+    age: 30
+};
 
-console.log (1 & 2); //Bitwise AND
+for (let key in person)
+console.log(key, person[key]);
+
+const colors = ['red', 'green', 'blue'];
+console.log(colors);
